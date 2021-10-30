@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
 namespace PokeWebApiApp.Models
 {
     public class Pokemon
     {
         public int ID { get; set; }
+        [Required]
         public string nome { get; set; }
         public string tipo { get; set; }
         public string poderes { get; set; }

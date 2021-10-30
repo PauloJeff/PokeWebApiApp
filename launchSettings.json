@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "serviceActions": {
+        "db": "StartWithoutDebugging",
+        "pokewebapiapp": "StartDebugging"
+      },
+      "commandVersion": "1.0"
+    }
+  }
+}
